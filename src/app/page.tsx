@@ -1,9 +1,10 @@
+import Slider from '@/components/Slider'
 import React from 'react'
 
 const HomePage = () => {
   return (
     <div className=''>
-      HomePage
+      <Slider />
     </div>
   )
 }
