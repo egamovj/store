@@ -11,7 +11,7 @@ const CartModal = () => {
         <div className="">Cart is Empty</div>
       ) : (
         <>
-        <h2 className="text-xl">Shopping Cart</h2>
+          <h2 className="text-xl">Shopping Cart</h2>
           <div className="flex flex-col gap-8">
             <div className="flex gap-4">
               <Image
