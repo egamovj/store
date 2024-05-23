@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const CustomizeProducts = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default CustomizeProducts
+export default CustomizeProducts;
