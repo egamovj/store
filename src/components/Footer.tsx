@@ -25,7 +25,38 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="hidden lg:flex justify-between w-1/2"></div>
+        <div className="hidden lg:flex justify-between w-1/2">
+          <div className="flex flex-col justify-between">
+            <h1 className="font-medium text-lg">COMPANY</h1>
+            <div className="flex flex-col gap-6">
+              <Link href="/">About Us</Link>
+              <Link href="/">Careers</Link>
+              <Link href="/">Affiliates</Link>
+              <Link href="/">Blog</Link>
+              <Link href="/">Contact</Link>
+            </div>
+          </div>
+          <div className="flex flex-col justify-between">
+            <h1 className="font-medium text-lg">SHOP</h1>
+            <div className="flex flex-col gap-6">
+              <Link href="/">New Arrivals</Link>
+              <Link href="/">Accessories</Link>
+              <Link href="/">Men</Link>
+              <Link href="/">Women</Link>
+              <Link href="/">All Products</Link>
+            </div>
+          </div>
+          <div className="flex flex-col justify-between">
+            <h1 className="font-medium text-lg">HELP</h1>
+            <div className="flex flex-col gap-6">
+              <Link href="/">Customer Service</Link>
+              <Link href="/">My Account</Link>
+              <Link href="/">Find a Store</Link>
+              <Link href="/">Legal & Privacy</Link>
+              <Link href="/">Gift Card</Link>
+            </div>
+          </div>
+        </div>
 
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <h1 className="font-medium text-lg">SUBSCRIBE</h1>
@@ -52,7 +83,19 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=""></div>
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
+        <div className="">2024 Store Shop</div>
+        <div className="flex flex-col gap-8 md:flex-row">
+          <div className="">
+            <span className="text-gray-500 mr-4">Language</span>
+            <span className="">United States | English</span>
+          </div>
+          <div className="">
+            <span className="text-gray-500 mr-4">Currency</span>
+            <span className="">$ USD</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
